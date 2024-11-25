@@ -290,3 +290,9 @@ processed_df %>%
   theme(legend.position = 'none')
 
 ```
+
+##send to Github
+#library(usethis)
+#use_git()
+#use_github()
+
