@@ -22,7 +22,6 @@ The list.files() function in R is used to list the files in a specified director
 files_list <- list.files("/Users/oliviahenry/Documents/KI/PhD/Courses/intermediate_R/tidyverse_exercise/Timeseries_data", pattern = "csv", full.names = TRUE, recursive = T)
 files_list
 
-
 ```
 
 Question 2:
@@ -289,5 +288,6 @@ processed_df %>%
   labs(x = "",
        y = "Value") +
   theme(legend.position = 'none')
+processed_df
 
 ```
