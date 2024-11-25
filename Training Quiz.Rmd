@@ -288,6 +288,5 @@ processed_df %>%
   labs(x = "",
        y = "Value") +
   theme(legend.position = 'none')
-processed_df
 
 ```
